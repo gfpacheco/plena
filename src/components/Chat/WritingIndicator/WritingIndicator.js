@@ -18,7 +18,8 @@ export default function WritingIndicator() {
 
 const styles = StyleSheet.create({
   root: {
-    padding: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 16,
     flexDirection: 'row',
   },
   dot: {

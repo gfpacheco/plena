@@ -1,39 +1,33 @@
 import React from 'react';
-import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
-import Avatar from '../Avatar';
-import Bubble from '../Bubble';
+import { View, SafeAreaView, StyleSheet } from 'react-native';
+import Option from './Option';
 
 function Options({ options, onPress }) {
   return (
     <View style={styles.root}>
-      <View>
-        {options.map((option, index) => (
-          <TouchableOpacity
-            key={index}
-            style={index > 0 ? styles.optionWithMargin : undefined}
-            onPress={() => onPress(option)}
-          >
-            <Bubble user>
-              <Text>{option.message}</Text>
-            </Bubble>
-          </TouchableOpacity>
-        ))}
-      </View>
-      <Avatar />
+      <SafeAreaView style={styles.safeAreaView}>
+        <View style={styles.options}>
+          {options &&
+            options.map((option, index) => (
+              <Option key={index} option={option} onPress={() => onPress(option)} />
+            ))}
+        </View>
+      </SafeAreaView>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   root: {
-    paddingHorizontal: 8,
-    paddingVertical: 16,
-    flexDirection: 'row',
-    justifyContent: 'flex-end',
-    alignItems: 'flex-end',
+    height: 240,
+    backgroundColor: '#e0e0e0',
   },
-  optionWithMargin: {
-    marginTop: 8,
+  safeAreaView: {
+    flex: 1,
+  },
+  options: {
+    flex: 1,
+    padding: 8,
   },
 });
 

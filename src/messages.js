@@ -100,7 +100,7 @@ export default {
     ],
   },
   note: {
-    message: 'Ok, take note or setup a reminder to take action on it later',
+    message: 'Ok, take note or setup a reminder to do it later',
     options: [
       {
         message: 'I did',

@@ -2,30 +2,22 @@ import { useState, useRef, useEffect } from 'react';
 import messages from '../messages';
 
 export default function useChat() {
-  const [history, setHistory] = useState([]);
-  const [writing, setWriting] = useState(true);
-  const pushMessageRef = useRef();
-
-  function write(message) {
-    setTimeout(() => pushMessageRef.current(message), 1000);
-  }
-
-  function answer(option) {
-    setHistory([...history, { message: option.message, user: true }]);
-    setWriting(true);
-    write(messages[option.goTo]);
-  }
+  const [history, setHistory] = useState([messages.index]);
+  const [writing, setWriting] = useState(false);
+  const writeRef = useRef();
 
   useEffect(() => {
-    write(messages.index);
-  }, []);
-
-  useEffect(() => {
-    pushMessageRef.current = message => {
+    writeRef.current = message => {
       setHistory([...history, message]);
       setWriting(false);
     };
   }, [history]);
+
+  function answer(option) {
+    setHistory([...history, { message: option.message, user: true }]);
+    setWriting(true);
+    setTimeout(() => writeRef.current(messages[option.goTo]), 1000);
+  }
 
   return [{ history, writing }, { answer }];
 }
