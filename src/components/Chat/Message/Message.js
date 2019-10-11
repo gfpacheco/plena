@@ -16,9 +16,10 @@ function Message({ message }) {
 
 const styles = StyleSheet.create({
   root: {
-    padding: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 16,
     flexDirection: 'row',
-    alignItems: 'flex-start',
+    alignItems: 'flex-end',
   },
   rootUser: {
     flexDirection: 'row-reverse',

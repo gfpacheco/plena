@@ -11,15 +11,18 @@ const styles = StyleSheet.create({
     padding: 8,
     borderRadius: 8,
     backgroundColor: '#fff',
-    width: '70%',
+    minHeight: 32,
+    maxWidth: 320,
     flexDirection: 'row',
     alignItems: 'center',
   },
   bubbleBot: {
-    borderTopLeftRadius: 0,
+    borderBottomLeftRadius: 0,
+    alignSelf: 'flex-start',
   },
   bubbleUser: {
-    borderTopRightRadius: 0,
+    borderBottomRightRadius: 0,
+    alignSelf: 'flex-end',
   },
 });
 
