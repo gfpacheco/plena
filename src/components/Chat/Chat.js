@@ -31,7 +31,7 @@ function Chat() {
 const styles = StyleSheet.create({
   scrollView: {
     flexGrow: 1,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#fffff8',
   },
   scrollViewContent: {
     flexGrow: 1,

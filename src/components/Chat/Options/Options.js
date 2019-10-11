@@ -20,7 +20,7 @@ function Options({ options, onPress }) {
 const styles = StyleSheet.create({
   root: {
     height: 240,
-    backgroundColor: '#e0e0e0',
+    backgroundColor: '#ffefd6',
   },
   safeAreaView: {
     flex: 1,

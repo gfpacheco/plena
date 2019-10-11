@@ -19,7 +19,7 @@ const styles = {
     flex: 1,
     margin: 8,
     borderRadius: 8,
-    backgroundColor: '#00aaf0',
+    backgroundColor: '#ce1139',
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#000',

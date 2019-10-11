@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   bubbleUser: {
     alignSelf: 'flex-end',
     borderBottomRightRadius: 0,
-    backgroundColor: '#00aaf0',
+    backgroundColor: '#ce1139',
   },
   bubbleBot: {
     alignSelf: 'flex-start',

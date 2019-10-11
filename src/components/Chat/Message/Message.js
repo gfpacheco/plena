@@ -6,7 +6,7 @@ import Bubble from '../Bubble';
 function Message({ message }) {
   return (
     <View style={[styles.root, message.user && styles.rootUser]}>
-      <Avatar />
+      <Avatar user={message.user} />
       <Bubble user={message.user}>
         <Text style={message.user ? styles.textUser : styles.textBot}>{message.message}</Text>
       </Bubble>
