@@ -1,13 +1,15 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import Avatar from '../Avatar';
+import Bubble from '../Bubble';
 
-function Message({ message, bot }) {
+function Message({ message }) {
   return (
-    <View style={[styles.root, !bot && styles.rootUser]}>
-      <View style={styles.avatar} />
-      <View style={[styles.bubble, bot ? styles.bubbleBot : styles.bubbleUser]}>
-        <Text>{message}</Text>
-      </View>
+    <View style={[styles.root, message.user && styles.rootUser]}>
+      <Avatar />
+      <Bubble user={message.user}>
+        <Text>{message.message}</Text>
+      </Bubble>
     </View>
   );
 }
@@ -26,19 +28,6 @@ const styles = StyleSheet.create({
     height: 32,
     borderRadius: 16,
     backgroundColor: '#ccc',
-  },
-  bubble: {
-    marginHorizontal: 8,
-    padding: 8,
-    borderRadius: 8,
-    backgroundColor: '#fff',
-    width: '70%',
-  },
-  bubbleBot: {
-    borderTopLeftRadius: 0,
-  },
-  bubbleUser: {
-    borderTopRightRadius: 0,
   },
 });
 

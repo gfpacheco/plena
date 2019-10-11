@@ -1,14 +1,19 @@
 import React from 'react';
 import { ScrollView, SafeAreaView, View, StyleSheet } from 'react-native';
 import Message from './Message';
+import WritingIndicator from './WritingIndicator';
+import useChat from '../../hooks/useChat';
 
 function Chat() {
+  const [{ history, writing }] = useChat();
   return (
     <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollViewContent}>
       <SafeAreaView style={styles.safeAreaView}>
         <View style={styles.safeAreaViewContent}>
-          <Message message="Sup?" bot />
-          <Message message="Sup?" />
+          {history.map((message, index) => (
+            <Message key={index} message={message} />
+          ))}
+          {writing && <WritingIndicator />}
         </View>
       </SafeAreaView>
     </ScrollView>
