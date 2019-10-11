@@ -8,7 +8,7 @@ function Message({ message }) {
     <View style={[styles.root, message.user && styles.rootUser]}>
       <Avatar />
       <Bubble user={message.user}>
-        <Text>{message.message}</Text>
+        <Text style={message.user ? styles.textUser : styles.textBot}>{message.message}</Text>
       </Bubble>
     </View>
   );
@@ -29,6 +29,12 @@ const styles = StyleSheet.create({
     height: 32,
     borderRadius: 16,
     backgroundColor: '#ccc',
+  },
+  textUser: {
+    color: '#fff',
+  },
+  textBot: {
+    color: '#222',
   },
 });
 
