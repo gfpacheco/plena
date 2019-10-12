@@ -29,6 +29,7 @@
       "bundleIdentifier": "com.gfpacheco.plena"
     },
     "android": {
+      "versionCode": 2,
       "package": "com.gfpacheco.plena",
       "permissions": []
     },
