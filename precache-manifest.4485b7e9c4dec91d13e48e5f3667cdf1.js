@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
-    "url": "/plena/./fonts/MaterialIcons.ttf"
+    "revision": "5a293a273bee8d740a045d9922b9a9ae",
+    "url": "/plena/./fonts/MaterialCommunityIcons.ttf"
   },
   {
     "revision": "a1f231770140e47fc3e0",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/plena/static/js/runtime~app.7a08e3c1.js"
   },
   {
-    "revision": "020fd499a2d2bc45c4c3b6021e472b43",
-    "url": "/plena/register-service-worker.js"
+    "revision": "d2285965fe34b05465047401b8595dd0",
+    "url": "/plena/./fonts/SimpleLineIcons.ttf"
   },
   {
     "revision": "e15324dcd02fc3b037b2768a36b9aa26",
     "url": "/plena/static/js/2.a7d6f454.chunk.js.gz"
   },
   {
-    "revision": "d0c694b562b2208635f250762cd7fc79",
-    "url": "/plena/serve.json"
+    "revision": "7a7bc7ead25db795e58b336f04d2624c",
+    "url": "/plena/favicon.ico"
   },
   {
     "revision": "c6aef942e3668158ec29d4adcb2e768f",
@@ -44,40 +44,32 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/Ionicons.ttf"
   },
   {
-    "revision": "5a293a273bee8d740a045d9922b9a9ae",
-    "url": "/plena/./fonts/MaterialCommunityIcons.ttf"
-  },
-  {
-    "revision": "bd56db0844d50841ee6e0b69eb5e794d",
-    "url": "/plena/expo-service-worker.js.gz"
-  },
-  {
-    "revision": "d2285965fe34b05465047401b8595dd0",
-    "url": "/plena/./fonts/SimpleLineIcons.ttf"
-  },
-  {
     "revision": "97398a60cc0f97736734",
     "url": "/plena/static/js/2.a7d6f454.chunk.js"
+  },
+  {
+    "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
+    "url": "/plena/./fonts/MaterialIcons.ttf"
+  },
+  {
+    "revision": "17b6a36b3f5302a232b62272a8b20f87",
+    "url": "/plena/index.html"
   },
   {
     "revision": "872545dde71de3842234bf6afe80c4cb",
     "url": "/plena/./fonts/FontAwesome5_Solid.ttf"
   },
   {
-    "revision": "7a7bc7ead25db795e58b336f04d2624c",
-    "url": "/plena/favicon.ico"
+    "revision": "d0c694b562b2208635f250762cd7fc79",
+    "url": "/plena/serve.json"
   },
   {
-    "revision": "5e695e96a003a79f7f97060bf49409a9",
-    "url": "/plena/expo-service-worker.js"
+    "revision": "061d6f6514ab3018905966c1473e622e",
+    "url": "/plena/privacy-policy.html"
   },
   {
     "revision": "02d2a3d936bec851930bcc66865742fe",
     "url": "/plena/manifest.json"
-  },
-  {
-    "revision": "17b6a36b3f5302a232b62272a8b20f87",
-    "url": "/plena/index.html"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
