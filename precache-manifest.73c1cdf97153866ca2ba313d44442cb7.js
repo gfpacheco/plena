@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/MaterialCommunityIcons.ttf"
   },
   {
-    "revision": "a1f231770140e47fc3e0",
-    "url": "/plena/static/js/app.5f92ffe6.chunk.js"
+    "revision": "59a420c0d9e52d9e0cd3",
+    "url": "/plena/static/js/app.4c15d6c6.chunk.js"
   },
   {
     "revision": "f906b7697d553a660742d65fd6482ed0",
     "url": "/plena/static/js/runtime~app.7a08e3c1.js.gz"
   },
   {
-    "revision": "38b4e676388d034cb6c263c012d48757",
-    "url": "/plena/static/js/app.5f92ffe6.chunk.js.gz"
+    "revision": "780fb1e1640995cf4e1517309de64c9e",
+    "url": "/plena/static/js/app.4c15d6c6.chunk.js.gz"
   },
   {
     "revision": "ca5b9d55e9e6fe13772e",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "e15324dcd02fc3b037b2768a36b9aa26",
-    "url": "/plena/static/js/2.a7d6f454.chunk.js.gz"
+    "revision": "02ca5e5f0e54be5b06d3bf59df7aeb51",
+    "url": "/plena/static/js/2.a5ce1d10.chunk.js.gz"
   },
   {
-    "revision": "7a7bc7ead25db795e58b336f04d2624c",
-    "url": "/plena/favicon.ico"
+    "revision": "d0c694b562b2208635f250762cd7fc79",
+    "url": "/plena/serve.json"
   },
   {
     "revision": "c6aef942e3668158ec29d4adcb2e768f",
@@ -44,15 +44,15 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/Ionicons.ttf"
   },
   {
-    "revision": "97398a60cc0f97736734",
-    "url": "/plena/static/js/2.a7d6f454.chunk.js"
+    "revision": "906fe70c45116dd4f149",
+    "url": "/plena/static/js/2.a5ce1d10.chunk.js"
   },
   {
     "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
     "url": "/plena/./fonts/MaterialIcons.ttf"
   },
   {
-    "revision": "17b6a36b3f5302a232b62272a8b20f87",
+    "revision": "4ddfe73962d0e642df1b1e86182b71ac",
     "url": "/plena/index.html"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/FontAwesome5_Solid.ttf"
   },
   {
-    "revision": "d0c694b562b2208635f250762cd7fc79",
-    "url": "/plena/serve.json"
+    "revision": "7a7bc7ead25db795e58b336f04d2624c",
+    "url": "/plena/favicon.ico"
   },
   {
     "revision": "061d6f6514ab3018905966c1473e622e",
