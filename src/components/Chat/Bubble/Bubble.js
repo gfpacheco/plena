@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     padding: 8,
     borderRadius: 8,
     minHeight: 32,
-    maxWidth: 320,
+    maxWidth: 256,
     flexDirection: 'row',
     alignItems: 'center',
     shadowColor: '#000',

@@ -21,6 +21,14 @@ const styles = StyleSheet.create({
   root: {
     height: 240,
     backgroundColor: '#ffefd6',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.41,
+    elevation: 2,
   },
   safeAreaView: {
     flex: 1,

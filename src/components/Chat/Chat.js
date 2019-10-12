@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
+import Header from './Header';
 import Message from './Message';
 import WritingIndicator from './WritingIndicator';
 import Options from './Options';
@@ -12,6 +13,7 @@ function Chat() {
 
   return (
     <>
+      <Header />
       <ScrollView
         ref={scrollViewRef}
         style={styles.scrollView}
