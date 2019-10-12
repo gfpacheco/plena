@@ -78,7 +78,7 @@ export default {
     options: [
       {
         message: 'I did!',
-        goTo: 'quick',
+        goTo: 'awesome',
       },
       {
         message: 'Not now',
