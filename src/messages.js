@@ -26,7 +26,7 @@ export default {
     ],
   },
   one: {
-    message: 'Does it have a direct effect over you?',
+    message: 'Does it affect you directly or someone else that you care about?',
     options: [
       {
         message: 'Yes',
@@ -137,7 +137,7 @@ export default {
     ],
   },
   awesome: {
-    message: 'Awesome, now you have room to focus on other stuff',
+    message: 'Awesome, one less thing to worry about. Now you have room to focus on other stuff',
     options: [
       {
         message: 'Thanks',
