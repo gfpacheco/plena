@@ -11,6 +11,10 @@ function Chat() {
   const scrollViewRef = useRef();
   const lastMessage = history[history.length - 1];
 
+  if (scrollViewRef.current) {
+    scrollViewRef.current.scrollToEnd({ animated: true });
+  }
+
   return (
     <>
       <Header />
@@ -18,7 +22,6 @@ function Chat() {
         ref={scrollViewRef}
         style={styles.scrollView}
         contentContainerStyle={styles.scrollViewContent}
-        onContentSizeChange={() => scrollViewRef.current.scrollToEnd({ animated: true })}
       >
         {history.map((message, index) => (
           <Message key={index} message={message} />
