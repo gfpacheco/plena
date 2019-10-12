@@ -24,7 +24,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gfpacheco.plena"
+    },
+    "android": {
+      "package": "com.gfpacheco.plena"
     },
     "androidStatusBar": {
       "backgroundColor": "#f4b382",
