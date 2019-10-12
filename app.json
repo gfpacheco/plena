@@ -11,6 +11,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
+    "primaryColor": "#ffefd6",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -28,13 +29,15 @@
       "bundleIdentifier": "com.gfpacheco.plena"
     },
     "android": {
-      "package": "com.gfpacheco.plena"
+      "package": "com.gfpacheco.plena",
+      "permissions": []
     },
     "androidStatusBar": {
       "backgroundColor": "#f4b382",
       "barStyle": "dark-content"
     },
     "androidNavigationBar": {
+      "visible": true,
       "backgroundColor": "#f4b382",
       "barStyle": "dark-content"
     }
