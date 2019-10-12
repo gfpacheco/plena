@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/MaterialCommunityIcons.ttf"
   },
   {
-    "revision": "59a420c0d9e52d9e0cd3",
-    "url": "/plena/static/js/app.4c15d6c6.chunk.js"
+    "revision": "73e1f4f16f98759d13d0",
+    "url": "/plena/static/js/app.fb924dce.chunk.js"
   },
   {
     "revision": "f906b7697d553a660742d65fd6482ed0",
     "url": "/plena/static/js/runtime~app.7a08e3c1.js.gz"
   },
   {
-    "revision": "780fb1e1640995cf4e1517309de64c9e",
-    "url": "/plena/static/js/app.4c15d6c6.chunk.js.gz"
+    "revision": "7b901dcd85a6bbbc64258685d8c00f55",
+    "url": "/plena/static/js/app.fb924dce.chunk.js.gz"
   },
   {
     "revision": "ca5b9d55e9e6fe13772e",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/plena/static/js/2.a5ce1d10.chunk.js.gz"
   },
   {
-    "revision": "d0c694b562b2208635f250762cd7fc79",
-    "url": "/plena/serve.json"
+    "revision": "061d6f6514ab3018905966c1473e622e",
+    "url": "/plena/privacy-policy.html"
   },
   {
     "revision": "c6aef942e3668158ec29d4adcb2e768f",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/MaterialIcons.ttf"
   },
   {
-    "revision": "4ddfe73962d0e642df1b1e86182b71ac",
+    "revision": "439a189432969617c2af1c7a69053241",
     "url": "/plena/index.html"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/plena/favicon.ico"
   },
   {
-    "revision": "061d6f6514ab3018905966c1473e622e",
-    "url": "/plena/privacy-policy.html"
+    "revision": "d0c694b562b2208635f250762cd7fc79",
+    "url": "/plena/serve.json"
   },
   {
     "revision": "02d2a3d936bec851930bcc66865742fe",
