@@ -150,7 +150,7 @@ export default {
     options: [
       {
         message: 'Yes',
-        goTo: 'affect',
+        goTo: 'one',
       },
       {
         message: 'Many',
