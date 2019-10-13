@@ -11,9 +11,7 @@ function Chat() {
   const scrollViewRef = useRef();
   const lastMessage = history[history.length - 1];
 
-  if (scrollViewRef.current) {
-    scrollViewRef.current.scrollToEnd({ animated: true });
-  }
+  requestAnimationFrame(() => scrollViewRef.current.scrollToEnd());
 
   return (
     <>
