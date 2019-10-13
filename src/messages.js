@@ -39,11 +39,16 @@ export default {
     ],
   },
   peopleClose: {
-    message: "Sometimes it's even worse when something is wrong with people close to us",
+    message:
+      "Sometimes it's even worse when something is wrong with people close to us. Is there anything that you can do right now to make it better?",
     options: [
       {
-        message: 'Right?!',
-        goTo: 'anythingNow',
+        message: 'Yes',
+        goTo: 'quick',
+      },
+      {
+        message: 'No',
+        goTo: 'anythingLater',
       },
     ],
   },
