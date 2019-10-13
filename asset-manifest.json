@@ -1,6 +1,6 @@
 {
-  "app.js": "/plena/static/js/app.2f5fc8c4.chunk.js",
-  "app.e7fac14f9c58c5646939.map": "/plena/e7fac14f9c58c5646939.map",
+  "app.js": "/plena/static/js/app.37adf2aa.chunk.js",
+  "app.b5eaaffde09e048bfc57.map": "/plena/b5eaaffde09e048bfc57.map",
   "runtime~app.js": "/plena/static/js/runtime~app.7a08e3c1.js",
   "runtime~app.ca5b9d55e9e6fe13772e.map": "/plena/ca5b9d55e9e6fe13772e.map",
   "static/js/2.1a52502a.chunk.js": "/plena/static/js/2.1a52502a.chunk.js",
@@ -34,11 +34,11 @@
   "favicon.ico": "/plena/favicon.ico",
   "index.html": "/plena/index.html",
   "manifest.json": "/plena/manifest.json",
-  "precache-manifest.81880f6b5aa074bf8158941668456b75.js": "/plena/precache-manifest.81880f6b5aa074bf8158941668456b75.js",
+  "precache-manifest.31c450ab5c45de293619ba8065d1c3bc.js": "/plena/precache-manifest.31c450ab5c45de293619ba8065d1c3bc.js",
   "privacy-policy.html": "/plena/privacy-policy.html",
   "serve.json": "/plena/serve.json",
   "service-worker.js": "/plena/service-worker.js",
   "static/js/2.1a52502a.chunk.js.gz": "/plena/static/js/2.1a52502a.chunk.js.gz",
-  "static/js/app.2f5fc8c4.chunk.js.gz": "/plena/static/js/app.2f5fc8c4.chunk.js.gz",
+  "static/js/app.37adf2aa.chunk.js.gz": "/plena/static/js/app.37adf2aa.chunk.js.gz",
   "static/js/runtime~app.7a08e3c1.js.gz": "/plena/static/js/runtime~app.7a08e3c1.js.gz"
 }
