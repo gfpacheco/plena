@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/MaterialCommunityIcons.ttf"
   },
   {
-    "revision": "79d056032e734cb777d3",
-    "url": "/plena/static/js/app.3575167e.chunk.js"
+    "revision": "e7fac14f9c58c5646939",
+    "url": "/plena/static/js/app.2f5fc8c4.chunk.js"
   },
   {
     "revision": "f906b7697d553a660742d65fd6482ed0",
     "url": "/plena/static/js/runtime~app.7a08e3c1.js.gz"
   },
   {
-    "revision": "0bbd7da42f14ad55766004963238aab7",
-    "url": "/plena/static/js/app.3575167e.chunk.js.gz"
+    "revision": "2c6441f8cd2bc7264c4b452bc6b2bc38",
+    "url": "/plena/static/js/app.2f5fc8c4.chunk.js.gz"
   },
   {
     "revision": "ca5b9d55e9e6fe13772e",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "02ca5e5f0e54be5b06d3bf59df7aeb51",
-    "url": "/plena/static/js/2.a5ce1d10.chunk.js.gz"
+    "revision": "d6176c111c978e8eff42eb05849b9611",
+    "url": "/plena/static/js/2.1a52502a.chunk.js.gz"
   },
   {
     "revision": "d0c694b562b2208635f250762cd7fc79",
@@ -44,15 +44,15 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/Ionicons.ttf"
   },
   {
-    "revision": "906fe70c45116dd4f149",
-    "url": "/plena/static/js/2.a5ce1d10.chunk.js"
+    "revision": "aaa1dcd59aafa06e5112",
+    "url": "/plena/static/js/2.1a52502a.chunk.js"
   },
   {
     "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
     "url": "/plena/./fonts/MaterialIcons.ttf"
   },
   {
-    "revision": "a77a11f77352142ee934c05594822803",
+    "revision": "8abf3033e5924bede508153b7bdb34a9",
     "url": "/plena/index.html"
   },
   {
