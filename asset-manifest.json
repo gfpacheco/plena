@@ -1,6 +1,6 @@
 {
-  "app.js": "/plena/static/js/app.a093ccde.chunk.js",
-  "app.21db6b8fe3c8c933dde8.map": "/plena/21db6b8fe3c8c933dde8.map",
+  "app.js": "/plena/static/js/app.f41f82cf.chunk.js",
+  "app.6472b6bba7261c054999.map": "/plena/6472b6bba7261c054999.map",
   "runtime~app.js": "/plena/static/js/runtime~app.7a08e3c1.js",
   "runtime~app.ca5b9d55e9e6fe13772e.map": "/plena/ca5b9d55e9e6fe13772e.map",
   "static/js/2.1a52502a.chunk.js": "/plena/static/js/2.1a52502a.chunk.js",
@@ -49,6 +49,8 @@
   "apple/splash/icon_750x1334.c76f060b13cf740223a7d3f464715960.png": "/plena/apple/splash/icon_750x1334.c76f060b13cf740223a7d3f464715960.png",
   "apple/splash/icon_828x1792.743725aaa0748932b182980f757ce904.png": "/plena/apple/splash/icon_828x1792.743725aaa0748932b182980f757ce904.png",
   "browserconfig.xml": "/plena/browserconfig.xml",
+  "expo-service-worker.js": "/plena/expo-service-worker.js",
+  "expo-service-worker.js.gz": "/plena/expo-service-worker.js.gz",
   "favicon-16x16.png": "/plena/favicon-16x16.png",
   "favicon-32x32.png": "/plena/favicon-32x32.png",
   "favicon-96x96.png": "/plena/favicon-96x96.png",
@@ -59,11 +61,11 @@
   "ms-icon-150x150.png": "/plena/ms-icon-150x150.png",
   "ms-icon-310x310.png": "/plena/ms-icon-310x310.png",
   "ms-icon-70x70.png": "/plena/ms-icon-70x70.png",
-  "precache-manifest.ffb37d56b42296fb54e6181bfd891d22.js": "/plena/precache-manifest.ffb37d56b42296fb54e6181bfd891d22.js",
+  "precache-manifest.f9dd95506f20acdb2c3d9e4bae8799b2.js": "/plena/precache-manifest.f9dd95506f20acdb2c3d9e4bae8799b2.js",
   "privacy-policy.html": "/plena/privacy-policy.html",
   "serve.json": "/plena/serve.json",
   "service-worker.js": "/plena/service-worker.js",
   "static/js/2.1a52502a.chunk.js.gz": "/plena/static/js/2.1a52502a.chunk.js.gz",
-  "static/js/app.a093ccde.chunk.js.gz": "/plena/static/js/app.a093ccde.chunk.js.gz",
+  "static/js/app.f41f82cf.chunk.js.gz": "/plena/static/js/app.f41f82cf.chunk.js.gz",
   "static/js/runtime~app.7a08e3c1.js.gz": "/plena/static/js/runtime~app.7a08e3c1.js.gz"
 }

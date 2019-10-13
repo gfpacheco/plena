@@ -1,35 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "62f3bbd3b2623c389cbc3d5ab5f965ae",
-    "url": "/plena/android-icon-96x96.png"
+    "revision": "d75345075e5f1f2b8732bc71124df48d",
+    "url": "/plena/android-icon-72x72.png"
   },
   {
-    "revision": "21db6b8fe3c8c933dde8",
-    "url": "/plena/static/js/app.a093ccde.chunk.js"
+    "revision": "6472b6bba7261c054999",
+    "url": "/plena/static/js/app.f41f82cf.chunk.js"
   },
   {
     "revision": "f906b7697d553a660742d65fd6482ed0",
     "url": "/plena/static/js/runtime~app.7a08e3c1.js.gz"
   },
   {
-    "revision": "a68f2557aee1b72d03287d91eed6dd24",
-    "url": "/plena/static/js/app.a093ccde.chunk.js.gz"
+    "revision": "051e2cc0f0c57b6c227d18fd1e7db1b6",
+    "url": "/plena/static/js/app.f41f82cf.chunk.js.gz"
   },
   {
     "revision": "ca5b9d55e9e6fe13772e",
     "url": "/plena/static/js/runtime~app.7a08e3c1.js"
   },
   {
-    "revision": "f20315d455b2a789441403b9d65d83e2",
-    "url": "/plena/favicon-32x32.png"
+    "revision": "5cb08f0467f521597e09273a94e64591",
+    "url": "/plena/browserconfig.xml"
   },
   {
     "revision": "d6176c111c978e8eff42eb05849b9611",
     "url": "/plena/static/js/2.1a52502a.chunk.js.gz"
   },
   {
-    "revision": "62f3bbd3b2623c389cbc3d5ab5f965ae",
-    "url": "/plena/favicon-96x96.png"
+    "revision": "5e695e96a003a79f7f97060bf49409a9",
+    "url": "/plena/expo-service-worker.js"
   },
   {
     "revision": "c6aef942e3668158ec29d4adcb2e768f",
@@ -56,56 +56,64 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "55151e5606c710ae2fd0b64a50e2f845",
-    "url": "/plena/favicon.ico"
+    "revision": "d0c694b562b2208635f250762cd7fc79",
+    "url": "/plena/serve.json"
   },
   {
-    "revision": "95150523a5333abb8c234958757f09f1",
-    "url": "/plena/android-icon-36x36.png"
+    "revision": "55151e5606c710ae2fd0b64a50e2f845",
+    "url": "/plena/favicon.ico"
   },
   {
     "revision": "5df1e9bf7b7e13d85416f80838a2b50f",
     "url": "/plena/android-icon-48x48.png"
   },
   {
-    "revision": "d75345075e5f1f2b8732bc71124df48d",
-    "url": "/plena/android-icon-72x72.png"
+    "revision": "95150523a5333abb8c234958757f09f1",
+    "url": "/plena/android-icon-36x36.png"
   },
   {
-    "revision": "aaa1dcd59aafa06e5112",
-    "url": "/plena/static/js/2.1a52502a.chunk.js"
+    "revision": "62f3bbd3b2623c389cbc3d5ab5f965ae",
+    "url": "/plena/android-icon-96x96.png"
+  },
+  {
+    "revision": "bd56db0844d50841ee6e0b69eb5e794d",
+    "url": "/plena/expo-service-worker.js.gz"
   },
   {
     "revision": "c16f87d3e90d41f6bc597572b3417f35",
     "url": "/plena/favicon-16x16.png"
   },
   {
-    "revision": "54d6a1fa0cbea9d2077e2df1d7c636ed",
-    "url": "/plena/index.html"
+    "revision": "aaa1dcd59aafa06e5112",
+    "url": "/plena/static/js/2.1a52502a.chunk.js"
   },
   {
     "revision": "872545dde71de3842234bf6afe80c4cb",
     "url": "/plena/./fonts/FontAwesome5_Solid.ttf"
   },
   {
-    "revision": "5cb08f0467f521597e09273a94e64591",
-    "url": "/plena/browserconfig.xml"
+    "revision": "f20315d455b2a789441403b9d65d83e2",
+    "url": "/plena/favicon-32x32.png"
   },
   {
-    "revision": "02d2a3d936bec851930bcc66865742fe",
-    "url": "/plena/manifest.json"
+    "revision": "62f3bbd3b2623c389cbc3d5ab5f965ae",
+    "url": "/plena/favicon-96x96.png"
   },
   {
     "revision": "7799d97f06aa716a5a0c573f6097f369",
     "url": "/plena/ms-icon-70x70.png"
   },
   {
-    "revision": "4054ed496fe6764bf57b93f91bd43311",
-    "url": "/plena/android-icon-144x144.png"
+    "revision": "061d6f6514ab3018905966c1473e622e",
+    "url": "/plena/privacy-policy.html"
   },
   {
-    "revision": "d0c694b562b2208635f250762cd7fc79",
-    "url": "/plena/serve.json"
+    "revision": "02d2a3d936bec851930bcc66865742fe",
+    "url": "/plena/manifest.json"
+  },
+  {
+    "revision": "4054ed496fe6764bf57b93f91bd43311",
+    "url": "/plena/android-icon-144x144.png"
   },
   {
     "revision": "074141c99d4e39f03bc510c5e5384af4",
@@ -120,12 +128,12 @@ self.__precacheManifest = [
     "url": "/plena/ms-icon-150x150.png"
   },
   {
-    "revision": "061d6f6514ab3018905966c1473e622e",
-    "url": "/plena/privacy-policy.html"
-  },
-  {
     "revision": "df6313f99a1c63ba58cb6b07a4032615",
     "url": "/plena/ms-icon-310x310.png"
+  },
+  {
+    "revision": "bb9c730f146ccabde16cfaa254a0a777",
+    "url": "/plena/index.html"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
