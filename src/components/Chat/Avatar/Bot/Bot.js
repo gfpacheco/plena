@@ -4,7 +4,7 @@ import colors from '../../../../colors';
 
 const SvgComponent = props => (
   <Svg width={32} height={32} viewBox="0 0 32 32" {...props}>
-    <Circle cx={16} cy={16} r={16} fill={colors.primary} />
+    <Circle cx={16} cy={16} r={16} fill="#ffefd6" />
     <Path
       d="M23.7 28.8c-1.8-.2-3.6-.3-5-.3h-4.9c-1.4 0-3.2.1-5 .3 0 0-.2.4-.5 1.2 2.3 1.3 4.9 2 7.7 2 3 0 5.7-.8 8.1-2.2-.3-.6-.4-1-.4-1z"
       fill="#b3233b"
