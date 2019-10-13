@@ -1,5 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, View, Text, StyleSheet } from 'react-native';
+import colors from '../../../../colors';
 
 function Option({ option, onPress }) {
   return (
@@ -19,10 +20,10 @@ const styles = {
     flex: 1,
     margin: 8,
     borderRadius: 8,
-    backgroundColor: '#ce1139',
+    backgroundColor: colors.accent,
     justifyContent: 'center',
     alignItems: 'center',
-    shadowColor: '#000',
+    shadowColor: colors.black,
     shadowOffset: {
       width: 0,
       height: 1,
@@ -32,7 +33,7 @@ const styles = {
     elevation: 2,
   },
   text: {
-    color: '#fff',
+    color: colors.white,
     textAlign: 'center',
     fontSize: 16,
     fontWeight: 'bold',

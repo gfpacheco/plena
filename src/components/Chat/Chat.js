@@ -5,6 +5,7 @@ import Message from './Message';
 import WritingIndicator from './WritingIndicator';
 import Options from './Options';
 import useChat from '../../hooks/useChat';
+import colors from '../../colors';
 
 function Chat() {
   const [{ history, writing }, { answer }] = useChat();
@@ -34,7 +35,7 @@ function Chat() {
 const styles = StyleSheet.create({
   scrollView: {
     flexGrow: 1,
-    backgroundColor: '#fffff8',
+    backgroundColor: colors.offWhite,
   },
   scrollViewContent: {
     flexGrow: 1,

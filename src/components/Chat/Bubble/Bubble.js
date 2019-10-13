@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
+import colors from '../../../colors';
 
 function Bubble({ user, ...rest }) {
   return <View style={[styles.bubble, user ? styles.bubbleUser : styles.bubbleBot]} {...rest} />;
@@ -15,7 +16,7 @@ const styles = StyleSheet.create({
     maxWidth: 256,
     flexDirection: 'row',
     alignItems: 'center',
-    shadowColor: '#000',
+    shadowColor: colors.black,
     shadowOffset: {
       width: 0,
       height: 1,
@@ -27,12 +28,12 @@ const styles = StyleSheet.create({
   bubbleUser: {
     alignSelf: 'flex-end',
     borderBottomRightRadius: 0,
-    backgroundColor: '#ce1139',
+    backgroundColor: colors.accent,
   },
   bubbleBot: {
     alignSelf: 'flex-start',
     borderBottomLeftRadius: 0,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
   },
 });
 

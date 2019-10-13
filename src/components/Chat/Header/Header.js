@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, SafeAreaView, Text, StyleSheet } from 'react-native';
+import colors from '../../../colors';
 
 function Header() {
   return (
@@ -15,8 +16,8 @@ function Header() {
 
 const styles = StyleSheet.create({
   root: {
-    backgroundColor: '#ffefd6',
-    shadowColor: '#000',
+    backgroundColor: colors.primary,
+    shadowColor: colors.black,
     shadowOffset: {
       width: 0,
       height: 1,

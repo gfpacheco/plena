@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Avatar from '../Avatar';
 import Bubble from '../Bubble';
+import colors from '../../../colors';
 
 function Message({ message }) {
   return (
@@ -24,17 +25,11 @@ const styles = StyleSheet.create({
   rootUser: {
     flexDirection: 'row-reverse',
   },
-  avatar: {
-    width: 32,
-    height: 32,
-    borderRadius: 16,
-    backgroundColor: '#ccc',
-  },
   textUser: {
-    color: '#fff',
+    color: colors.white,
   },
   textBot: {
-    color: '#222',
+    color: colors.offBlack,
   },
 });
 

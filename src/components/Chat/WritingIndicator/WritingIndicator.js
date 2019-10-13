@@ -2,6 +2,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import Avatar from '../Avatar';
 import Bubble from '../Bubble';
+import colors from '../../../colors';
 
 export default function WritingIndicator() {
   return (
@@ -27,6 +28,6 @@ const styles = StyleSheet.create({
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#999',
+    backgroundColor: colors.gray,
   },
 });
