@@ -29,11 +29,11 @@ export default {
     message: 'Does it affect you directly or someone else that you care about?',
     options: [
       {
-        message: 'Yes',
+        message: 'Me',
         goTo: 'anythingNow',
       },
       {
-        message: 'No',
+        message: 'Someone I care',
         goTo: 'peopleClose',
       },
     ],
@@ -129,10 +129,6 @@ export default {
       {
         message: 'I will',
         goTo: 'awesome',
-      },
-      {
-        message: 'No',
-        goTo: 'stop',
       },
     ],
   },
