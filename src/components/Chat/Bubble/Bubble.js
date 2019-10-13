@@ -8,8 +8,9 @@ function Bubble({ user, ...rest }) {
 const styles = StyleSheet.create({
   bubble: {
     marginHorizontal: 8,
-    padding: 8,
-    borderRadius: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 16,
     minHeight: 32,
     maxWidth: 256,
     flexDirection: 'row',
