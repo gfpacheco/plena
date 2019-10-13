@@ -20,10 +20,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 16,
     flexDirection: 'row',
-    alignItems: 'flex-end',
   },
   rootUser: {
     flexDirection: 'row-reverse',
+    alignItems: 'flex-end',
   },
   textUser: {
     color: colors.white,

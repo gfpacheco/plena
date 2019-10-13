@@ -31,8 +31,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.accent,
   },
   bubbleBot: {
-    alignSelf: 'flex-start',
-    borderBottomLeftRadius: 0,
+    borderTopLeftRadius: 0,
     backgroundColor: colors.white,
   },
 });
