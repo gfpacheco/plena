@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/plena/static/js/runtime~app.7a08e3c1.js"
   },
   {
-    "revision": "62f3bbd3b2623c389cbc3d5ab5f965ae",
-    "url": "/plena/favicon-96x96.png"
+    "revision": "c16f87d3e90d41f6bc597572b3417f35",
+    "url": "/plena/favicon-16x16.png"
   },
   {
     "revision": "d6176c111c978e8eff42eb05849b9611",
     "url": "/plena/static/js/2.1a52502a.chunk.js.gz"
   },
   {
-    "revision": "f20315d455b2a789441403b9d65d83e2",
-    "url": "/plena/favicon-32x32.png"
+    "revision": "62f3bbd3b2623c389cbc3d5ab5f965ae",
+    "url": "/plena/favicon-96x96.png"
   },
   {
     "revision": "c6aef942e3668158ec29d4adcb2e768f",
@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "d0c694b562b2208635f250762cd7fc79",
-    "url": "/plena/serve.json"
-  },
-  {
     "revision": "55151e5606c710ae2fd0b64a50e2f845",
     "url": "/plena/favicon.ico"
   },
   {
-    "revision": "5df1e9bf7b7e13d85416f80838a2b50f",
-    "url": "/plena/android-icon-48x48.png"
+    "revision": "d0c694b562b2208635f250762cd7fc79",
+    "url": "/plena/serve.json"
   },
   {
     "revision": "95150523a5333abb8c234958757f09f1",
     "url": "/plena/android-icon-36x36.png"
+  },
+  {
+    "revision": "5df1e9bf7b7e13d85416f80838a2b50f",
+    "url": "/plena/android-icon-48x48.png"
   },
   {
     "revision": "aaa1dcd59aafa06e5112",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/plena/./fonts/FontAwesome5_Solid.ttf"
   },
   {
-    "revision": "c16f87d3e90d41f6bc597572b3417f35",
-    "url": "/plena/favicon-16x16.png"
+    "revision": "f20315d455b2a789441403b9d65d83e2",
+    "url": "/plena/favicon-32x32.png"
   },
   {
     "revision": "02d2a3d936bec851930bcc66865742fe",
@@ -104,12 +104,12 @@ self.__precacheManifest = [
     "url": "/plena/ms-icon-70x70.png"
   },
   {
-    "revision": "b69773d77373e5e8baebe4a7f8262496",
-    "url": "/plena/register-service-worker.js"
-  },
-  {
     "revision": "061d6f6514ab3018905966c1473e622e",
     "url": "/plena/privacy-policy.html"
+  },
+  {
+    "revision": "b69773d77373e5e8baebe4a7f8262496",
+    "url": "/plena/register-service-worker.js"
   },
   {
     "revision": "4054ed496fe6764bf57b93f91bd43311",
